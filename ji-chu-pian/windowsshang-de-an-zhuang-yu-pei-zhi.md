@@ -4,4 +4,4 @@
 
 对于非pro版的windows来讲，需要安装docker tool。
 
-## setup
+## 初始化
