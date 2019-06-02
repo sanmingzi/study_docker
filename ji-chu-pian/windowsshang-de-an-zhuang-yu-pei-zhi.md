@@ -3,3 +3,5 @@
 ## 安装
 
 对于非pro版的windows来讲，需要安装docker tool。
+
+## setup
