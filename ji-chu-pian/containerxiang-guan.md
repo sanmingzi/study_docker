@@ -25,6 +25,7 @@ docker container create --name my_centos centos
 
 ```
 // https://docs.docker.com/engine/reference/commandline/container_start/
+docker container start my_centos
 ```
 
 ## 停止
