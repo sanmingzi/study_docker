@@ -9,6 +9,9 @@ docker container ls
 // 查看所有container
 docker container ls -a
 docker container ls --all
+
+// 只显示container id
+docker container ls -q
 ```
 
 ## 创建
