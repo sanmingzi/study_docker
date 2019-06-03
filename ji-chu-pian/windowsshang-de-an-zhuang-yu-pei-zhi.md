@@ -21,12 +21,9 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 此时我们就可以在终端通过docker的cli与docker daemon进行交互了。
 ```
 
-## 配置
-
-- 修改镜像源
+## 修改镜像源
 
 由于网络原因，我们需要将镜像源改成国内的。
-
 
 ```
 第一步，进入docker-daemon
