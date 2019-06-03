@@ -8,6 +8,10 @@
 
 ## 启动
 
+```
+安装完成之后运行脚本：C:\Program Files\Docker Toolbox\start.sh
+```
+
 
 ## 配置
 
