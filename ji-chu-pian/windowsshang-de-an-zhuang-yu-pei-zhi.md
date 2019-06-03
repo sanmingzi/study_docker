@@ -43,7 +43,6 @@ sudo vi /etc/docker/daemon.json
 
 保存文件，退出daemon
 
-
 第三步，重启
 docker-machine restart
 
