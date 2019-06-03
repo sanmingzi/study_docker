@@ -18,7 +18,7 @@ docker container ls -q
 
 ```
 // https://docs.docker.com/engine/reference/commandline/container_create/
-docker container create --name myCentos centos
+docker container create --name my_centos centos
 ```
 
 ## 启动
