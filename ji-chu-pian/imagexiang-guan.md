@@ -24,6 +24,13 @@ docker image inspect centos
 
 ## build
 
+## tag
+
+```
+// docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+docker image tag centos my_centos:7
+```
+
 ## remove
 
 ```
