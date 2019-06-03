@@ -59,7 +59,8 @@ docker container stop my_centos
 // https://docs.docker.com/engine/reference/commandline/container_stats/
 docker container stats my_centos
 
-// 查看所有container的资源
+// 查看所有container的资源使用情况
+docker container stats -a
 ```
 
 ## 将container保存为image
