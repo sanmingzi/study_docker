@@ -18,7 +18,7 @@ docker container ls -q
 
 ```
 // https://docs.docker.com/engine/reference/commandline/container_stats/
-
+docker container stats my_centos
 ```
 
 ## 创建
