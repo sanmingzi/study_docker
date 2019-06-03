@@ -10,7 +10,9 @@
 
 ```
 安装完成之后运行脚本：C:\Program Files\Docker Toolbox\start.sh
+
 运行命令：docker-machine ls
+
 如果看到如下：
 NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER     ERRORS
 default   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.09.6
