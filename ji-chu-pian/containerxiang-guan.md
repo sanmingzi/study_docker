@@ -14,13 +14,6 @@ docker container ls --all
 docker container ls -q
 ```
 
-## 查看container使用的资源
-
-```
-// https://docs.docker.com/engine/reference/commandline/container_stats/
-docker container stats my_centos
-```
-
 ## 创建
 
 ```
