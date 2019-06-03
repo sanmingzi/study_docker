@@ -27,6 +27,6 @@ docker image inspect centos
 ## remove
 
 ```
-// prune
+// prune, remove unused image
 docker image prune
 ```
