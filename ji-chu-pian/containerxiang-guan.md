@@ -14,6 +14,13 @@ docker container ls --all
 docker container ls -q
 ```
 
+## 查看container使用的资源
+
+```
+// https://docs.docker.com/engine/reference/commandline/container_stats/
+
+```
+
 ## 创建
 
 ```
@@ -32,9 +39,14 @@ docker container start my_centos
 
 ```
 // https://docs.docker.com/engine/reference/commandline/container_stop/
+docker container stop my_centos
 ```
 
 ## 重启
+
+```
+// 
+```
 
 ## 删除
 
