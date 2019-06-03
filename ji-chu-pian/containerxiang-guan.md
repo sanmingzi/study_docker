@@ -12,4 +12,6 @@
 
 ## container与local system之间的文件传输
 
+## container中的文件持久化
+
 ## 将container保存为image
