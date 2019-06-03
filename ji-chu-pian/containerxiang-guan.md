@@ -10,6 +10,8 @@
 
 ## 进入非运行中的container
 
+## 查看container的日志
+
 ## container与local system之间的文件传输
 
 ## container中的文件持久化
