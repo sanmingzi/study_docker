@@ -33,5 +33,7 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 docker-machine ssh
 
 // 第二步，修改配置文件
+sudo vi /var/lib/boot2docker/profile
+
 
 ```
