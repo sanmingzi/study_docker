@@ -30,6 +30,10 @@ docker container start my_centos
 
 ## 停止
 
+```
+// https://docs.docker.com/engine/reference/commandline/container_stop/
+```
+
 ## 重启
 
 ## 删除
