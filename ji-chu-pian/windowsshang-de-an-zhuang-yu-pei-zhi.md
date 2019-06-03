@@ -18,6 +18,7 @@ NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DO
 default   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.09.6
 
 说明docker daemon已经成功启动，并且监听的是2376端口。
+
 ```
 
 
