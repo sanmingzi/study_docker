@@ -35,5 +35,6 @@ docker-machine ssh
 // 第二步，修改配置文件
 sudo vi /var/lib/boot2docker/profile
 
-
+// 第三步，重启
+docker-machine restart
 ```
