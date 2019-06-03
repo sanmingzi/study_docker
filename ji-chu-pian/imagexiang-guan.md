@@ -25,3 +25,8 @@ docker image inspect centos
 ## build
 
 ## remove
+
+```
+// prune
+docker image prune
+```
