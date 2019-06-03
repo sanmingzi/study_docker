@@ -1,6 +1,6 @@
 # container相关
 
-## 查看container的状态
+## 查看container的运行状态
 
 ```
 // 查看正在运行的container
