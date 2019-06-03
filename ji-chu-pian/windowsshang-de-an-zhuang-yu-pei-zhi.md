@@ -23,4 +23,4 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 
 ## 配置
 
-- 镜像源
+- 修改镜像源
