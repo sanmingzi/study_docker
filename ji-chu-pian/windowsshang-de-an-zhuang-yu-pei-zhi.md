@@ -29,5 +29,5 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 
 
 ```
-
+第一步，进入docker-daemon
 ```
