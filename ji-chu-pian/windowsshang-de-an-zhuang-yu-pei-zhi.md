@@ -16,6 +16,8 @@
 如果看到如下内容：
 NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER     ERRORS
 default   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.09.6
+
+说明docker daemo
 ```
 
 
