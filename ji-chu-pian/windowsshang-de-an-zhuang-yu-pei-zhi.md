@@ -34,14 +34,13 @@ docker-machine ssh
 
 第二步，配置文件
 sudo vi /etc/docker/daemon.json
-
 {
   "registry-mirrors": ["https://registry.docker-cn.com",
                        "https://hub-mirror.c.163.com",
                        "https://docker.mirrors.ustc.edu.cn"]
 }
 
-保存文件，退出daemon
+保存文件，退出
 
 第三步，重启
 docker-machine restart
