@@ -49,5 +49,10 @@ docker-machine restart
 运行命令：docker info
 
 如果看到如下内容：
-
+Registry Mirrors:
+ https://registry.docker-cn.com/
+ https://hub-mirror.c.163.com/
+ https://docker.mirrors.ustc.edu.cn/
+ 
+说明镜像源修改成功
 ```
