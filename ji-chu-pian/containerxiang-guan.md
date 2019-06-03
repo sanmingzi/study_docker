@@ -1,5 +1,7 @@
 # container相关
 
+## 查看container的状态
+
 ## 启动
 
 ## 停止
