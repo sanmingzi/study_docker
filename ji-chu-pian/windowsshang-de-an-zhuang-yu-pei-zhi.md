@@ -29,12 +29,12 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 
 
 ```
-// 第一步，进入docker-daemon
+第一步，进入docker-daemon
 docker-machine ssh
 
-// 第二步，修改配置文件
+第二步，修改配置文件
 sudo vi /var/lib/boot2docker/profile
 
-// 第三步，重启
+第三步，重启
 docker-machine restart
 ```
