@@ -39,4 +39,7 @@ sudo vi /var/lib/boot2docker/profile
 
 第三步，重启
 docker-machine restart
+
+第四步，检查是否修改成功
+
 ```
