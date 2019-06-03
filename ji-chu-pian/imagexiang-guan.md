@@ -12,6 +12,9 @@ docker image ls
 // history
 docker image history centos:latest
 docker image history mysql:latest
+
+// 详细信息 inspect
+docker image inspect centos
 ```
 
 ## pull
