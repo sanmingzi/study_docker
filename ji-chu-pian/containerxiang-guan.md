@@ -53,4 +53,11 @@ docker container stop my_centos
 
 ## container中的文件持久化
 
+## 查看container使用的资源
+
+```
+// https://docs.docker.com/engine/reference/commandline/container_stats/
+docker container stats my_centos
+```
+
 ## 将container保存为image
