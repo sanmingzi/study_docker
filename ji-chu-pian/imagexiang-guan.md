@@ -2,7 +2,7 @@
 
 image是docker启动容器的镜像文件。
 image里面包含了操作系统，安装包，库，以及代码。
-image同代码一样，也是有tag的，默认是latest
+image同代码一样，也是有tag的，默认是latest。
 
 ## 查看image
 
