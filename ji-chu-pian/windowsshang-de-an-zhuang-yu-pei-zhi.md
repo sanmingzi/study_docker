@@ -10,6 +10,9 @@
 
 ```
 安装完成之后运行脚本：C:\Program Files\Docker Toolbox\start.sh
+运行命令：docker-machine ls
+如果看到如下：
+
 ```
 
 
