@@ -10,7 +10,8 @@ image里面包含了操作系统，安装包，库，以及代码。
 docker image ls
 
 // history
-
+docker image history centos:latest
+docker image history mysql:latest
 ```
 
 ## pull
