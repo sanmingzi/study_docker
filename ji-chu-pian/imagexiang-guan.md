@@ -17,3 +17,5 @@ docker image ls
 ## push
 
 ## build
+
+## remove
