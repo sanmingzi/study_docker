@@ -32,7 +32,7 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 第一步，进入docker-daemon
 docker-machine ssh
 
-第二步，修改配置文件
+第二步，配置文件
 sudo vi /var/lib/boot2docker/profile
 在--label provider=virtualbox的下一行添加--registry-mirror https://registry.docker-cn.com
 保存文件，退出docker-daemon
@@ -41,5 +41,8 @@ sudo vi /var/lib/boot2docker/profile
 docker-machine restart
 
 第四步，检查是否修改成功
+运行命令：docker info
+
+如果看到如下内容：
 
 ```
