@@ -10,4 +10,6 @@
 
 ## 进入非运行中的container
 
+## container与local system之间的文件传输
+
 ## 将container保存为image
