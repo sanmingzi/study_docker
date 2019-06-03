@@ -9,5 +9,11 @@ image里面包含了操作系统，安装包，库，以及代码。
 // image list
 docker image ls
 
-//
+// 
 ```
+
+## pull
+
+## push
+
+## build
