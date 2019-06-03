@@ -33,9 +33,16 @@ default   *        virtualbox   Running   tcp://192.168.99.100:2376           v1
 docker-machine ssh
 
 第二步，配置文件
-sudo vi /var/lib/boot2docker/profile
-在--label provider=virtualbox的下一行添加--registry-mirror https://registry.docker-cn.com
-保存文件，退出docker-daemon
+sudo vi /etc/docker/daemon.json
+
+{
+  "registry-mirrors": ["https://registry.docker-cn.com",
+                       "https://hub-mirror.c.163.com",
+                       "https://docker.mirrors.ustc.edu.cn"]
+}
+
+保存文件，退出daemon
+
 
 第三步，重启
 docker-machine restart
