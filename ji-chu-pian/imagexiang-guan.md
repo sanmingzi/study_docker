@@ -20,6 +20,12 @@ docker image inspect centos
 
 ## pull
 
+```
+docker image pull centos
+docker image pull centos:7
+
+```
+
 ## push
 
 ## build
