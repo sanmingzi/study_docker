@@ -56,6 +56,9 @@ docker container kill my_centos
 
 // remove
 docker container rm my_centos
+
+// prune
+docker container prune
 ```
 
 ## 查看container的资源使用情况
