@@ -57,8 +57,6 @@ docker container restart my_centos
 ## 删除
 
 ```
-
-
 // remove
 docker container rm my_centos
 
