@@ -45,7 +45,7 @@ docker container stop my_centos
 ## 重启
 
 ```
-// 
+docker container restart my_centos
 ```
 
 ## 删除
