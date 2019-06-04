@@ -11,7 +11,7 @@
 * [image相关](ji-chu-pian/imagexiang-guan.md)
 * [container相关](ji-chu-pian/containerxiang-guan.md)
 * [Dockerfile](ji-chu-pian/dockerfile.md)
-* docker-compose
+* [docker-compose](ji-chu-pian/docker-compose.md)
 * docker-machine
 
 ## 进阶篇
