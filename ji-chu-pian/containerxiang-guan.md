@@ -106,4 +106,5 @@ docker container cp my_centos:/root/docker-start.cmd test.cmd
 
 ```
 // docker container commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+docker container commit my_centos centos:test
 ```
