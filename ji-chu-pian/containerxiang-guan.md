@@ -103,3 +103,7 @@ docker container cp my_centos:/root/docker-start.cmd test.cmd
 ## container中的文件持久化
 
 ## 将container保存为image
+
+```
+// docker container commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+```
