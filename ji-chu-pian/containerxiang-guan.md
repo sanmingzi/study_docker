@@ -84,8 +84,6 @@ docker container attach my_centos
 docker container exec -it my_centos /bin/bash
 ```
 
-## 进入非运行中的container
-
 ## 查看container的日志
 
 ## container与local system之间的文件传输
