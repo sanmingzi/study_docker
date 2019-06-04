@@ -27,7 +27,10 @@ docker image pull centos:7
 
 ## push
 
-
+```
+docker image push centos
+docker image push centos:7
+```
 
 
 ## build
