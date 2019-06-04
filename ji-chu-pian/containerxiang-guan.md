@@ -50,6 +50,14 @@ docker container restart my_centos
 
 ## 删除
 
+```
+// kill
+docker container kill my_centos
+
+// remove
+docker container rm my_centos
+```
+
 ## 查看container的资源使用情况
 
 ```
