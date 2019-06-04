@@ -35,7 +35,7 @@ docker container rename my_centos new_centos
 docker container start my_centos
 
 // run
-docker container run --name my_centos centos:latest
+docker container run -d -it --name my_centos centos:latest
 ```
 
 ## 停止
