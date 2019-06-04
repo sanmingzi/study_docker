@@ -24,6 +24,7 @@ docker container create --name my_centos centos
 ## 重命名
 
 ```
+// docker container rename CONTAINER NEW_NAME
 docker container rename my_centos new_centos
 ```
 
