@@ -86,6 +86,10 @@ docker container exec -it my_centos /bin/bash
 
 ## 查看container的日志
 
+```
+docker container logs -f my_centos
+```
+
 ## container与local system之间的文件传输
 
 ## container中的文件持久化
