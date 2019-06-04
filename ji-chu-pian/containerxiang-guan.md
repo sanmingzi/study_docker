@@ -95,7 +95,7 @@ docker container logs -f my_centos
 ```
 // docker container cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
 // docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
-docker cp docker-start.cmd redis:/root
+docker cp docker-start.cmd my_centos:/root
 docker container cp redis:/root/docker-start.cmd test.cmd
 ```
 
