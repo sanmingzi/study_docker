@@ -38,6 +38,7 @@ docker image push registry-ip:port/centos
 
 ```
 // https://docs.docker.com/engine/reference/commandline/image_build/
+// build image from a Dockerfile
 docker image build .
 ```
 
