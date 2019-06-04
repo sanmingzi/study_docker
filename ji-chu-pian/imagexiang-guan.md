@@ -36,6 +36,10 @@ docker image push registry-ip:port/centos
 
 ## build
 
+```
+// docker image build [OPTIONS] PATH | URL | -
+```
+
 ## tag
 
 ```
