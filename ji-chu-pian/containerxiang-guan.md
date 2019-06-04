@@ -76,6 +76,11 @@ docker container stats -a
 
 ## 进入运行中的container
 
+```
+// attach
+docker container attach my_centos
+```
+
 ## 进入非运行中的container
 
 ## 查看container的日志
