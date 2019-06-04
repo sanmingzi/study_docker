@@ -32,9 +32,7 @@ docker image pull registry-ip:port/centos
 docker image push centos
 docker image push centos:7
 docker image push registry-ip:port/centos
-
 ```
-
 
 ## build
 
