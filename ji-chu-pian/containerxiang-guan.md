@@ -93,7 +93,8 @@ docker container logs -f my_centos
 ## container与local system之间的文件传输
 
 ```
-
+// docker container cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
+// docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
 ```
 
 ## container中的文件持久化
