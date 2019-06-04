@@ -33,6 +33,9 @@ docker container rename my_centos new_centos
 ```
 // https://docs.docker.com/engine/reference/commandline/container_start/
 docker container start my_centos
+
+// run
+docker container
 ```
 
 ## 停止
