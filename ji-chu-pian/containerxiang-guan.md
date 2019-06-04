@@ -94,6 +94,4 @@ docker container logs -f my_centos
 
 ## container中的文件持久化
 
-
-
 ## 将container保存为image
