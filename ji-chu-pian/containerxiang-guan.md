@@ -43,6 +43,9 @@ docker container run --name my_centos centos:latest
 ```
 // https://docs.docker.com/engine/reference/commandline/container_stop/
 docker container stop my_centos
+
+// kill
+docker container kill my_centos
 ```
 
 ## 重启
@@ -54,8 +57,7 @@ docker container restart my_centos
 ## 删除
 
 ```
-// kill
-docker container kill my_centos
+
 
 // remove
 docker container rm my_centos
