@@ -21,6 +21,12 @@ docker container ls -q
 docker container create --name my_centos centos
 ```
 
+## 重命名
+
+```
+docker container rename my_centos new_centos
+```
+
 ## 启动
 
 ```
