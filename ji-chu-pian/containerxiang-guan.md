@@ -57,7 +57,7 @@ docker container kill my_centos
 // remove
 docker container rm my_centos
 
-// prune
+// prune, remove all unused container
 docker container prune
 ```
 
