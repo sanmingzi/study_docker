@@ -23,7 +23,6 @@ docker image inspect centos
 ```
 docker image pull centos
 docker image pull centos:7
-
 ```
 
 ## push
