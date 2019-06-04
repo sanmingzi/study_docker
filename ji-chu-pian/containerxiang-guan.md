@@ -94,8 +94,9 @@ docker container logs -f my_centos
 
 ```
 // docker container cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
-// docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
 docker cp docker-start.cmd my_centos:/root
+
+// docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
 docker container cp my_centos:/root/docker-start.cmd test.cmd
 ```
 
