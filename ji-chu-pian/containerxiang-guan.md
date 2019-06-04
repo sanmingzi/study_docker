@@ -92,6 +92,10 @@ docker container logs -f my_centos
 
 ## container与local system之间的文件传输
 
+```
+
+```
+
 ## container中的文件持久化
 
 ## 将container保存为image
