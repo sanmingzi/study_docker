@@ -81,7 +81,7 @@ docker container stats -a
 docker container attach my_centos
 
 // exec
-docker container exec -it my_centos bash
+docker container exec -it my_centos /bin/bash
 ```
 
 ## 进入非运行中的container
