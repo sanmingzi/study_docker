@@ -23,6 +23,7 @@ docker image inspect centos
 ```
 docker image pull centos
 docker image pull centos:7
+docker image pull registry-ip:port/centos
 ```
 
 ## push
