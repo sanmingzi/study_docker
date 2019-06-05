@@ -77,6 +77,8 @@ RUN apt-get update && apt-get install -y \
 
 ## ENV
 
+有些软件需要将其运行路径添加到环境变量中去才能运行。
+
 ```
 ENV PG_MAJOR 9.3
 ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
