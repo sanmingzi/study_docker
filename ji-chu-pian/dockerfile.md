@@ -133,6 +133,10 @@ ENTRYPOINT ["/bin/bash", "-c", "echo hello, $name"]
 
 command相当于是写在docker-compose中的CMD命令，会覆盖Dockerfile中的CMD命令。
 
+### 总结
+
+
+
 ## EXPOSE
 
 ## ENV
