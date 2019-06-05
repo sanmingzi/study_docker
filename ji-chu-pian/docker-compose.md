@@ -9,8 +9,7 @@ services:
     build:
       context: ./dir
       dockerfile: Dockerfile-alternate
-      args:
-        buildno: 1
+    image: webapp:tag
 ```
 
 ##
