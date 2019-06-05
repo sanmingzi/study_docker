@@ -90,6 +90,8 @@ RUN apt-get update && apt-get install -y \
     ["arg1", "arg2"]
     # This format will be the parameter of ENTRYPOINT
     ```
+    
+- ENTRYPOINT
 
 ## EXPOSE
 
