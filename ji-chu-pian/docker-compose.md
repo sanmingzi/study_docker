@@ -15,9 +15,9 @@ services:
       args:
         buildno: 1 // should define this arg in Dockerfile first
       labels:
-    com.example.description: "Accounting webapp"
-    com.example.department: "Finance"
-    com.example.label-with-empty-value: ""
+        com.example.description: "Accounting webapp"
+        com.example.department: "Finance"
+        com.example.label-with-empty-value: ""
     image: webapp:tag
 ```
 
