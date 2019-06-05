@@ -12,7 +12,7 @@
 * [container相关](ji-chu-pian/containerxiang-guan.md)
 * [Dockerfile Best Practice](ji-chu-pian/dockerfile.md)
 * [docker-compose](ji-chu-pian/docker-compose.md)
-* docker-machine
+* [docker-machine](ji-chu-pian/docker-machine.md)
 
 ## 进阶篇
 
