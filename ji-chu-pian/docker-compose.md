@@ -36,6 +36,8 @@ services:
     image: mysql
     volumes:
        - db-data:/var/lib/mysql/data
+   networks:
+       - overlay
     
 volumes:
   db-data:
