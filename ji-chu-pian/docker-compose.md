@@ -30,6 +30,12 @@ services:
       replicas: 6
   db:
     image: postgres
+    
+volumes:
+  db-data:
+
+networks:
+  overlay:
 ```
 
 ##
