@@ -26,7 +26,7 @@ services:
     command: bundle exec thin -p 3000
   redis:
     image: redis
-        deploy:
+    deploy:
       replicas: 6
   db:
     image: postgres
