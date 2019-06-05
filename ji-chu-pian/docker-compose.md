@@ -33,6 +33,13 @@ services:
     deploy:
       replicas: 6
       mode: global
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
+        reservations:
+          cpus: '0.25'
+          memory: 20M
   mysql:
     image: mysql
     volumes:
