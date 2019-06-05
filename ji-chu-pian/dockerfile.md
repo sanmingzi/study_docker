@@ -15,6 +15,8 @@ CMD python /app/app.py
 最后使用真正的base image，将编译好的东西COPY过去。
 这样的好处在于能够是最终的image的大小是正好合适的，没有多余的package。
 
+Don’t install unnecessary packages
+
 ```
 FROM golang:1.11-alpine AS build
 
