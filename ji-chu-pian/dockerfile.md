@@ -83,3 +83,5 @@ RUN apt-get update && apt-get install -y \
 ENV PG_MAJOR 9.3
 ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 ```
+
+ENV命令会创建一个新的layer，
