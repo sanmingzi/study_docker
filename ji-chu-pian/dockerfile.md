@@ -9,7 +9,7 @@ RUN make /app
 CMD python /app/app.py
 ```
 
-## FROM AS
+## FROM...AS
 
 我们可以使用FROM...AS构建一个临时的base image，然后在里面安装一些编译需要的东西。
 最后使用真正的base image，将编译好的东西COPY过去。
