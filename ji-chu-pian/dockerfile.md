@@ -42,7 +42,7 @@ ENTRYPOINT ["/bin/project"]
 CMD ["--help"]
 ```
 
-如果我们不使用这种方法，而是在同一个image中先安装包，然后再删除包，那结果是整个image的大小是不会变的。因为image是由layer堆积而成的，安装包的时候那个layer的大小就已经固定了，而后来的操作只会新增layer，而不会影响原有的layer。
+如果我们不使用这种方法，而是在同一个image中先安装包，然后再删除包，那结果是整个image会变得很大。因为image是由layer堆积而成的，安装包的时候那个layer的大小就已经固定了，而后来的操作只会新增layer，而不会影响原有的layer。
 
 ## COPY && ADD
 
