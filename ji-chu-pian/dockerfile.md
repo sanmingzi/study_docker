@@ -117,6 +117,7 @@ ENTRYPOINT echo hello $name
 ```
 
 - exec form
+
 ```
 name=zhiming
 ENTRYPOINT ["/bin/echo", "hello $name"]
