@@ -55,9 +55,12 @@ docker image tag centos my_centos:7
 // rm
 docker image rm centos
 
+// delete all dangling image
+docker rmi $(docker images -f "dangling=true" -q)
+
+
 // prune, remove unused image
 docker image prune
 
-// delete all dangling image
-docker rmi $(docker images -f "dangling=true" -q)
+
 ```
