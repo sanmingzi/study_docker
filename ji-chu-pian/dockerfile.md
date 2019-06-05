@@ -83,6 +83,14 @@ RUN apt-get update && apt-get install -y \
     CMD echo "hello world" => /bin/sh -c 'echo "hello world"'
     ```
     - exec form
+    ```
+    ["command", "arg1"]
+    ```
+    
+    ```
+    ["arg1", "arg2"]
+    # This format will be the parameter of ENTRYPOINT
+    ```
 
 ## EXPOSE
 
