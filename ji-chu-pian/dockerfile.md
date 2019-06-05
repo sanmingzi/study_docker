@@ -13,9 +13,7 @@ CMD python /app/app.py
 
 我们可以使用FROM...AS构建一个临时的base image，然后在里面安装一些编译需要的东西。
 最后使用真正的base image，将编译好的东西COPY过去。
-这样的好处在于能够是最终的image的大小是正好合适的，没有多余的package。
-
-Don’t install unnecessary packages
+这样的好处在于能够是最终的image的大小是正好合适的: Don’t install unnecessary packages
 
 ```
 FROM golang:1.11-alpine AS build
