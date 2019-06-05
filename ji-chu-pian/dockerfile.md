@@ -1,6 +1,6 @@
 # Dockerfile
 
-## demo
+## Demo
 
 ```
 FROM ubuntu:18.04
