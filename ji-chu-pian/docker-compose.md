@@ -9,9 +9,9 @@ version: "3.7"
 
 services:
   webapp:
-  depends_on:
-- db
-- redis
+    depends_on:
+      - db
+      - redis
     build:
       context: ./dir
       dockerfile: Dockerfile-alternate
