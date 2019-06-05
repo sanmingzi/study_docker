@@ -9,6 +9,9 @@ version: "3.7"
 
 services:
   webapp:
+  depends_on:
+- db
+- redis
     build:
       context: ./dir
       dockerfile: Dockerfile-alternate
@@ -21,9 +24,7 @@ services:
     image: webapp:tag
     container_name: my-web-container
     command: bundle exec thin -p 3000
-    depends_on:
-      - db
-      - redis
+
   redis:
     image: redis
   db:
