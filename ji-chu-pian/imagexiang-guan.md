@@ -60,5 +60,4 @@ docker image prune
 
 // delete all dangling image
 docker rmi $(docker images -f "dangling=true" -q)
-# it will delete all dangling image
 ```
