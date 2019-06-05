@@ -78,7 +78,6 @@ RUN apt-get update && apt-get install -y \
 ## CMD && ENTRYPOINT && command
 
 - CMD
-
     - shell form
     ```
     CMD echo "hello world" => /bin/sh -c 'echo "hello world"'
