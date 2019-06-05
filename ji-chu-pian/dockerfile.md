@@ -11,6 +11,10 @@ CMD python /app/app.py
 
 ## base image
 
+```
+FROM centos:7
+```
+
 ## 添加文件
 
 ## 运行指令
