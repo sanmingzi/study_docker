@@ -33,7 +33,7 @@ services:
     deploy:
       replicas: 6
   mysql:
-    image: postgres
+    image: mysql
     volumes:
        - db-data:/var/lib/mysql/data
     
