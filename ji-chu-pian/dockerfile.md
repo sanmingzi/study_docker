@@ -129,6 +129,10 @@ ENTRYPOINT ["/bin/bash", "-c", "echo hello, $name"]
 # => hello zhiming
 ```
 
+### command
+
+
+
 ## EXPOSE
 
 ## ENV
