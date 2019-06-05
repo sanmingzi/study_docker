@@ -13,7 +13,7 @@ services:
       context: ./dir
       dockerfile: Dockerfile-alternate
       args:
-        buildno: 1
+        buildno: 1 // should define this arg in Dockerfile first
     image: webapp:tag
 ```
 
