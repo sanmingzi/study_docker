@@ -52,6 +52,6 @@ COPY . /app
 // ADD
 ```
 
-## 运行指令
+## RUN
 
 ## CMD
