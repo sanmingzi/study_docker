@@ -107,25 +107,25 @@ docker run -it image_id hello zhiming
 # => echo hello zhiming
 ```
 
-    - shell form
-    ```
-    name=zhiming
-    ENTRYPOINT echo hello $name
-    # => /bin/bash -c "echo hello $name"
-    # => hello zhiming
-    ```
-    
-    - exec form
-    ```
-    name=zhiming
-    ENTRYPOINT ["/bin/echo", "hello $name"]
-    # => /bin/echo hello $name
-    # => hello $name
-    
-    ENTRYPOINT ["/bin/bash", "-c", "echo hello, $name"]
-    # => /bin/bash -c "echo hello $name"
-    # => hello zhiming
-    ```
+- shell form
+```
+name=zhiming
+ENTRYPOINT echo hello $name
+# => /bin/bash -c "echo hello $name"
+# => hello zhiming
+```
+
+- exec form
+```
+name=zhiming
+ENTRYPOINT ["/bin/echo", "hello $name"]
+# => /bin/echo hello $name
+# => hello $name
+
+ENTRYPOINT ["/bin/bash", "-c", "echo hello, $name"]
+# => /bin/bash -c "echo hello $name"
+# => hello zhiming
+```
 
 ## EXPOSE
 
