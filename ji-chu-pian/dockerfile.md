@@ -78,7 +78,7 @@ RUN apt-get update && apt-get install -y \
 ## CMD && ENTRYPOINT && command
 
 - CMD
-    
+Can be overrite by the command provided at run time using docker run
     - shell form
     ```
     CMD echo "hello world" => /bin/sh -c 'echo "hello world"'
