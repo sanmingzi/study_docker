@@ -54,6 +54,8 @@ CMD ["--help"]
 COPY . /app
 
 // ADD
+// 如果是tar包，add命令会自动解压，然后添加到image中
+
 ```
 
 ## RUN
