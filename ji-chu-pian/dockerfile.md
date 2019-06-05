@@ -106,6 +106,12 @@ docker run -it image_id hello zhiming
 ```
 
     - shell form
+    ```
+name=zhiming
+ENTRYPOINT echo hello $name
+# => /bin/bash -c "echo hello $name"
+# => hello zhiming
+```
     
     - exec form
 
