@@ -32,6 +32,7 @@ services:
     image: redis
     deploy:
       replicas: 6
+      mode: global
   mysql:
     image: mysql
     volumes:
