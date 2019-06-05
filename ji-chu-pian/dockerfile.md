@@ -106,7 +106,9 @@ ENTRYPOINT ["echo"]
 docker run -it image_id hello zhiming
 # => echo hello zhiming
 ```
+
 - shell form
+
 ```
 name=zhiming
 ENTRYPOINT echo hello $name
