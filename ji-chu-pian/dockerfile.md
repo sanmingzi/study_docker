@@ -9,7 +9,7 @@ RUN make /app
 CMD python /app/app.py
 ```
 
-## base image
+## FROM AS
 
 ```
 FROM centos:7
