@@ -78,7 +78,9 @@ RUN apt-get update && apt-get install -y \
 ## CMD && ENTRYPOINT && command
 
 - CMD
+
     - shell form
+    
     - ENTRYPOINT
 
 
