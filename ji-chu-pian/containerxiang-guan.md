@@ -62,6 +62,9 @@ docker container rm my_centos
 
 // prune, remove all unused container
 docker container prune
+
+// 
+docker rm $(docker ps -aq)
 ```
 
 ## 查看container的资源使用情况
