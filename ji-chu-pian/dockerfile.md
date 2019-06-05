@@ -80,11 +80,9 @@ RUN apt-get update && apt-get install -y \
 - CMD
 
     - shell form
-    ```
-    ```
+```
 CMD echo "hello world" => /bin/sh -c 'echo "hello world"'
 ```
-    ```
 
 ## EXPOSE
 
