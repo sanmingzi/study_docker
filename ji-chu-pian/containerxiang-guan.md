@@ -63,7 +63,7 @@ docker container rm my_centos
 // prune, remove all unused container
 docker container prune
 
-// 
+// remove all not running container
 docker rm $(docker ps -aq)
 ```
 
