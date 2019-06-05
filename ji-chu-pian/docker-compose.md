@@ -32,7 +32,7 @@ services:
     image: redis
     deploy:
       replicas: 6
-  db:
+  mysql:
     image: postgres
     volumes:
        - db-data:/var/lib/mysql/data
