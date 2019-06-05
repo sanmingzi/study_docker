@@ -72,3 +72,8 @@ RUN apt-get update && apt-get install -y \
 ```
 
 ## CMD && ENTRYPOINT
+
+## EXPOSE
+
+## ENV
+
