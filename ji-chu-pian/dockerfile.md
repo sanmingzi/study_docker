@@ -35,7 +35,8 @@ RUN go build -o /bin/project
 FROM scratch
 COPY --from=build /bin/project /bin/project
 ENTRYPOINT ["/bin/project"]
-CMD ["--help"]```
+CMD ["--help"]
+```
 
 ## 添加文件
 
