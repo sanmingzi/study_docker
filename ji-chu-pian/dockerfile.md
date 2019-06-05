@@ -85,3 +85,16 @@ ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 ```
 
 ENV命令会创建一个新的layer，正是因为这个原因，所以即使我们在future layer中unset这个环境变量，但是该变量在当前layer中依旧存在。
+
+```
+FROM alpine
+ENV ADMIN_USER="mark"
+RUN echo $ADMIN_USER > ./mark
+RUN unset ADMIN_USER
+```
+
+```
+$ docker run --rm test sh -c 'echo $ADMIN_USER'
+
+mark
+```
