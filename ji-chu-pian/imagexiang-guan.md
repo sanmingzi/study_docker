@@ -57,4 +57,8 @@ docker image rm centos
 
 // prune, remove unused image
 docker image prune
+
+// 
+docker rmi $(docker images -f "dangling=true" -q)
+# it will delete all dangling image
 ```
