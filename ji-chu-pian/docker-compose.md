@@ -25,6 +25,8 @@ services:
     container_name: my-web-container
     ports:
       - "8080:80"
+    volumes:
+      - ./data:/home/root/data
     networks:
       - overlay
     command: bundle exec thin -p 3000
