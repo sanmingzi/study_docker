@@ -34,6 +34,8 @@ services:
       replicas: 6
   db:
     image: postgres
+    volumes:
+       - db-data:/var/lib/mysql/data
     
 volumes:
   db-data:
