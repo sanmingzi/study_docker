@@ -13,6 +13,6 @@ CMD python /app/app.py
 
 ## 添加文件
 
-## 运行命令
+## 运行指令
 
 ## CMD
