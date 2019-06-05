@@ -78,10 +78,10 @@ RUN apt-get update && apt-get install -y \
 ## CMD && ENTRYPOINT && command
 
 - CMD
+    - shell form
 
 如果在docker run container的时候使用了其他命令，CMD的命令会被覆盖。
 
-         - shell form
     
     ```
     CMD echo "hello world" => /bin/sh -c 'echo "hello world"'
