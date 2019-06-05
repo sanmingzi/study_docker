@@ -20,6 +20,7 @@ services:
         com.example.label-with-empty-value: ""
     image: webapp:tag
     command: bundle exec thin -p 3000
+    container_name: my-web-container
 ```
 
 ##
