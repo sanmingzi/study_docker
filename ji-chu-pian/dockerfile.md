@@ -135,7 +135,12 @@ command相当于是写在docker-compose中的CMD命令，会覆盖Dockerfile中�
 
 ### 总结
 
+- 寫在docker compose裡面的command和寫在Dockerfile裡面的CMD效果是一樣的，只是command可以覆蓋CMD，就像是docker run time的command
+- CMD和ENTRYPOINT都有shell format以及exec format，如果是shell format，真正執行的時候會在前面加"/bin/bash -c"
+- ENTRYPOINT不會被run docker time的cmd覆蓋，但是CMD是會被覆蓋掉的
+- 如果CMD和ENTRYPOINT同時存在，那麼CMD會作為ENTRYPOINT的參數
 
+http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
 
 ## EXPOSE
 
