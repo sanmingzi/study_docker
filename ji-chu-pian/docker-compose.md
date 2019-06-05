@@ -24,7 +24,6 @@ services:
     image: webapp:tag
     container_name: my-web-container
     command: bundle exec thin -p 3000
-
   redis:
     image: redis
   db:
