@@ -42,7 +42,7 @@ ENTRYPOINT ["/bin/project"]
 CMD ["--help"]
 ```
 
-## COPY and ADD
+## COPY && ADD
 
 ```
 // COPY
