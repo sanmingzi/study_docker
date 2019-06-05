@@ -95,6 +95,9 @@ RUN apt-get update && apt-get install -y \
     
 - ENTRYPOINT
 
+该命令不会被docker run container的时候的命令覆盖。
+Dockerfile里面的CMD以及运行时的命令都会变成参数。
+
     - shell form
     
     - exec form
