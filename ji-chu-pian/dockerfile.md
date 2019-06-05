@@ -142,7 +142,6 @@ command相当于是写在docker-compose中的CMD命令，会覆盖Dockerfile中�
 
 [CMD vs ENTRYPOINT](http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/)
 
-## EXPOSE
 
 ## ENV
 
@@ -167,3 +166,7 @@ $ docker run --rm test sh -c 'echo $ADMIN_USER'
 
 mark
 ```
+
+## EXPOSE
+
+## VOLUME
