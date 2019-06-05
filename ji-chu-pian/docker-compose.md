@@ -25,6 +25,8 @@ services:
     container_name: my-web-container
     ports:
       - "8080:80"
+     networks:
+      - overlay
     command: bundle exec thin -p 3000
   redis:
     image: redis
