@@ -1,6 +1,6 @@
 # Dockerfile Best Practice
 
-[Dockerfile best practice](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+[Dockerfile Best Practice](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 ## Simple Demo
 
