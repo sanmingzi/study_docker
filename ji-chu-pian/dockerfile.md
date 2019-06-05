@@ -140,7 +140,7 @@ command相当于是写在docker-compose中的CMD命令，会覆盖Dockerfile中�
 - ENTRYPOINT不會被run docker time的cmd覆蓋，但是CMD是會被覆蓋掉的
 - 如果CMD和ENTRYPOINT同時存在，那麼CMD會作為ENTRYPOINT的參數
 
-[参考](http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/)
+[CMD vs ENTRYPOINT](http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/)
 
 ## EXPOSE
 
